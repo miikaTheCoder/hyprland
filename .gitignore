@@ -1,0 +1,9 @@
+# Ignore Brave Browser cache and temporary files
+BraveSoftware/
+
+# Add other directories/files you don't want to track
+# For example, if you don't want to track KDE config:
+# KDE/
+# baloofileinformationrc
+# ... and other specific KDE files
+
