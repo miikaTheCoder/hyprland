@@ -27,7 +27,7 @@ window {
   width: 30%;
   background-color: @bg;
   /* Uncomment and set a valid path for background image */
-  /* background-image: url("path/to/your/image.png", both); */
+  background-image: url("~/.config/rofi/background.png", both);
 }
 
 element {
