@@ -8,6 +8,7 @@
   "modules-right": [
     "pulseaudio",
     "custom/uptime",
+    "custom/upload-speed",
     "backlight",
     "battery",
     "network",
