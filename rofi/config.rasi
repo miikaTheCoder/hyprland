@@ -6,16 +6,16 @@ configuration {
   display-window: "Windows:";
   drun-display-format: "{name}";
   font: "JetBrainsMono Nerd Font Bold 10";  /* Verify this font is installed */
-  modi: "window,drun";  /* Using only valid modes from your error */
+  modi: "window,drun,filebrowser";  /* Using only valid modes from your error */
 }
 
 @theme "default"  /* Point to a valid theme or remove if needed */
 
 * {
-  bg: #000000;  /* Solid black background */
+  /* bg: #000000;   Solid black background */
   bg-alt: #111111;  /* Slightly lighter for distinction */
   bg-selected: #333333;  /* Dark grey for selections */
-  fg: #ffffff;  /* White text */
+  fg:#00bb28;  /* White text */
   fg-alt: #cccccc;  /* Lighter grey for secondary text */
   border: 0;
   margin: 0;
@@ -36,6 +36,12 @@ element {
   text-color: @fg-alt;
 }
 
+element-icon {
+  size: 24;
+  padding: 0 10 0 0;
+  background-color: transparent;
+}
+
 element selected {
   text-color: @fg;
   background-color: @bg-selected;
@@ -48,8 +54,8 @@ element-text {
 }
 
 element-icon {
-  size: 14;
-  padding: 0 10 0 0;
+  size: 24;  /* Make icons larger for prominence on the left */
+  padding: 0 10 0 0;  /* Space between icon and text */
   background-color: transparent;
 }
 
