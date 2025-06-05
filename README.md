@@ -8,13 +8,7 @@ These are my personal Hyprland dotfiles for Arch Linux, aiming for a clean, effi
 
 Here are some screenshots showcasing the setup:
 
-<!-- TODO: Add your screenshots here!
-You can embed them like this:
-![Screenshot 1 Description](path/to/your/screenshot1.png)
-![Screenshot 2 Description](path/to/your/screenshot2.png)
-Or link to a gallery:
-[View more screenshots in the gallery!](link-to-your-gallery-or-imgur-album)
--->
+![](/Screenshot_2025-06-05_22.59.21.png)
 
 ---
 
